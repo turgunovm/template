@@ -7,11 +7,32 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Template</title>
+  <title>Quote Generator</title>
 </head>
 <body>
 
-  <h1>Hello, World!</h1>
+  <div class="quote" id="quote-container">
+    
+    <!-- Quote -->
+    <div class="quote__container">
+      <i class="fas fa-quote-left"></i>
+      <span id="quote__text">Don't judge each day by the harvest you reap but by the seeds that you plant.</span>
+    </div>
+
+    <!-- Author -->
+    <div class="quote__author">
+      <span id="author">Sidhartha Gautama</span>
+    </div>
+
+    <!-- Buttons -->
+    <div class="quote__button">
+      <button class="twitter-button" id="twitter" title="Tweet This!">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button id="new-quote">New Quote</button>
+    </div>
+
+  </div>
 
   <script src="script.js"></script>
 </body>
